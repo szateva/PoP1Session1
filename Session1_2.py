@@ -17,3 +17,6 @@ TESTS:
 
 Input: Harry Output: Hello, Harry!
 Input: Mr. Jack Sparrow Output: Hello, Mr. Jack Sparrow! """
+
+name = str(input("Write your name here: "))
+print( "Hello, " + name + "!")
