@@ -16,3 +16,9 @@ TESTS:
 Input: 9, 9 Output: 40.5
 Input: 6, 4 Output: 12.0
 Input: 1, 1 Output: 0.5 """
+
+base = int(input("What is the base of the triangle? "))
+height = int(input("What is the height of the triangle? "))
+area = float(base * height / 2)
+
+print("The area of the triangle is ", area)
