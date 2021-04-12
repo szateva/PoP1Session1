@@ -17,3 +17,13 @@ TESTS:
 Input: 2, 3, 6 Output: 11
 Input: 0, 20, 300 Output: 320
 Input: -5, 180, -17 Output: 158 """
+
+num1 = float(input('number 1 '))
+
+num2 = float(input('number 2 '))
+
+num3 = float(input('number 3 '))
+
+total = num1 + num2 + num3
+
+print(total)
