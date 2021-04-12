@@ -15,3 +15,12 @@ TESTS:
 Input: 6, 50 Output: 8, 2
 Input: 1, 10 Output: 10, 0
 Input: 4, 2 Output: 0, 2 """
+
+
+no_of_students = int(input("How many student? "))
+no_of_pens = int(input("How many pens? "))
+
+pen_per_student = str(no_of_pens//no_of_students)
+remaining_pens = str(no_of_pens%no_of_students)
+print("Number of pens per student: " + pen_per_student)
+print("Pens remaining in the box: " + remaining_pens)
