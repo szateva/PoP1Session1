@@ -18,3 +18,13 @@ TESTS:
 Input: 179 Output: 17
 Input: 829 Output: 19
 Input: 100 Output: 1 """
+
+number = int(input("Type in a 3 digit number: "))
+
+units_digit = number % 10
+tens_digit = (number // 10) % 10
+hundreds_digit = (number // 100) % 100
+
+sum_of_ditis = hundreds_digit + tens_digit + units_digit
+
+print("The sum of the digits in " + str(number) + " is " + str(sum_of_ditis))
