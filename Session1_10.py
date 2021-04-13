@@ -21,3 +21,16 @@ Input: 2, 2, 2, 4 Output: YES
 Input: 2, 3, 3, 2 Output: YES
 Input: 2, 3, 7, 8 Output: YES
 Input: 2, 3, 8, 8 Output: NO """
+
+col1 = int(input("What is the coord of the first col? "))
+row1 = int(input("What is the coord of the first row? "))
+col2 = int(input("What is the coord of the second col? "))
+row2 = int(input("What is the coord of the second row? "))
+
+sum1 = col1 + row1
+sum2 = col2 + row2
+
+if sum1 % 2 == sum2 % 2:
+    print("YES")
+else:
+    print("NO")
