@@ -10,3 +10,8 @@ TESTS:
 Input: 5 Output: 25
 Input: 35 Output: 1225
 Input: -20 Output: 400 """
+
+num = int(input("Enter a number: "))
+sqr = num**2
+
+print(sqr)
