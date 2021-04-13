@@ -19,3 +19,14 @@ Input: 2011 Output: COMMON
 Input: 1492 Output: LEAP
 Input: 1861 Output: COMMON
 Input: 1600 Output: LEAP """
+
+year = int(input("What year do you want to check? "))
+
+if year % 400 == 0:
+    to_print = "LEAP"
+elif year % 4 == 0 and year % 100 != 0:
+    to_print = "LEAP"
+else:
+    to_print = "COMMON"
+
+print(to_print)
