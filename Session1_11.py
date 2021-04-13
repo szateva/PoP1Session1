@@ -19,3 +19,13 @@ Input: 5, 5, 6, 5 Output: YES
 Input: 1, 1, 1, 8 Output: YES
 Input: 1, 5, 1, 1 Output: YES
 Input: 2, 2, 6, 6 Output: NO """
+
+col1 = int(input("What is the coord of the first col? "))
+row1 = int(input("What is the coord of the first row? "))
+col2 = int(input("What is the coord of the second col? "))
+row2 = int(input("What is the coord of the second row? "))
+
+if col1 == col2 or row1 == row2:
+    print("YES")
+else:
+    print("NO")
