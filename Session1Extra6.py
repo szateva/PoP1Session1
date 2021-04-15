@@ -28,7 +28,7 @@ row2 = int(input("What is the coord of the second row? "))
 col_diff = abs(col2 - col1)
 row_diff = abs(row2 - row1)
 same_col = (col1 == col2)
-same_row = (col1 == col2)
+same_row = (row1 == row2)
 
 if col_diff == 1 and same_row:
     print("YES")

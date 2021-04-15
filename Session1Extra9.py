@@ -19,3 +19,18 @@ Input: 4, 2, 7, 5 Output: YES
 Input: 4, 2, 4, 8 Output: YES
 Input: 4, 2, 3, 2 Output: YES
 Input: 5, 3, 6, 5 Output: NO """
+
+col1 = int(input("What is the coord of the first col? "))
+row1 = int(input("What is the coord of the first row? "))
+col2 = int(input("What is the coord of the second col? "))
+row2 = int(input("What is the coord of the second row? "))
+
+col_diff = abs(col2 - col1)
+row_diff = abs(row2 - row1)
+same_col = (col1 == col2)
+same_row = (row1 == row2)
+
+if same_row or same_col or (col_diff == row_diff):
+    print("YES")
+else:
+    print("NO")
