@@ -15,3 +15,9 @@ Input: 150 Output: 2 30
 Input: 180 Output: 3 0
 Input: 444 Output: 7 24
 Input: 1439 Output: 23 59 """
+
+num_of_minutes = int(input("How many minutes since midnight? "))
+hours_passed = num_of_minutes // 60
+minutes_passed = num_of_minutes % 60
+
+print(hours_passed, minutes_passed)
