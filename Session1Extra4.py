@@ -19,8 +19,7 @@ Input: 10.34 Output: 0.34
 Input: 45 Output: 0.0
 Input: 0.001 Output: 0.001 """
 
-str_num = input("Type the number: ")
-num_list = str_num.split(".")
-fractional_part = float(num_list[1])
-
-print(fractional_part)
+num = float(input("Type your number: "))
+fraction_part = num % 1
+fraction_part = round(fraction_part, 3)
+print(fraction_part)
