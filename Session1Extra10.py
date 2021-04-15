@@ -19,3 +19,15 @@ Input: 7, 4, 21 Output: YES
 Input: 7, 1, 6 Output: YES
 Input: 7, 1, 8 Output: NO
 Input: 387, 13, 2709 Output: YES """
+
+choc_length = int(input("What is the length of the chocolate bar? "))
+choc_width = int(input("What is the width of the chocolate bar? "))
+choc_squares = int(input("How many squares to break off? "))
+
+if choc_squares > (choc_width * choc_length):
+    print("NO")
+else:
+    if (choc_squares % choc_width == 0) or (choc_squares % choc_length == 0):
+        print("YES")
+    else:
+        print("NO")
